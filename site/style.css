@@ -1,0 +1,62 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+    margin: 0; padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.RS li, .name, a {
+    color: rgba(201, 201, 201, 0.788);
+}
+
+.cabecario, .RS, .info, .lista-info {
+    display: flex;
+}
+
+.cabecario {
+    justify-content: space-around;
+    padding: 1% ;
+    background: #000000d9;
+    align-items: center;
+}
+
+.RS {
+    width: 140px;
+    justify-content: space-between;
+}
+
+.RS li {
+    font-size: 20px;
+}
+
+.lista-info {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info {
+    justify-content: space-around;
+    width: 700px;
+    padding: 25px 0px 25px 250px;
+}
+
+.search {
+    padding-right: 200px;
+}
+
+.name {
+    padding-right: 700px;
+    width: 3%;
+}
+
+.conteudo {
+    background: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/F403/production/_109476426_jheison3.png) no-repeat center;
+    background-size: 100%;
+    padding: 17%;
+    align-content: center;
+
+}
+
